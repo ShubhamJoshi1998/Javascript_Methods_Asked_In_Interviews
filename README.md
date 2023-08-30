@@ -1,18 +1,18 @@
 # Javascript_Methods_Asked_In_Interviews
 
 # tostring() Method:
-# toString() method converts an array to a string of array Values
+ toString() method converts an array to a string of array Values
 
 let arr = ["a","b","c","d","e"];
 console.log("toString() : ", arr.toString());
 
 # join method()
-# join() method is same as toString() method, but we can specify a seprator also.It can be anything like ", / + -"
+ join() method is same as toString() method, but we can specify a seprator also.It can be anything like ", / + -"
 let arr1 = ["a","b","c","d","e"];
 console.log("join() : ", arr.join("/"))
 
 # pop() method
-# pop() method removes the last element from an array.
+ pop() method removes the last element from an array.
 //This method returns the value that was popped out.
 let arr2 = ["a","b","c","d","e"];
 console.log(arr2.pop());
