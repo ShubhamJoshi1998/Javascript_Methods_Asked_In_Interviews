@@ -134,4 +134,68 @@ console.log(arr15.sort((a,b) => a>b ? 1:-1)); //ascending.
 
 console.log(arr15.sort((a,b) => a>b ? -1:1)); //descending.
 
+# forEach() method
+This method helps to loop over array by executing a provided callback function for each element in an array.
+
+SYNTAX : array.forEach(callback(currentValue, index, array), thisArg);
+
+let arr16 = [ 1, 2, 3, 4, 5 ];
+
+arr16.forEach(ele => {
+
+    console.log(ele);
+    
+});
+
+# every() method
+This method checks every element in the array that all elements passes the condition returns true or false.
+
+let arr17 = [ 1, 2, 3, 4, 5 ];
+
+console.log(arr17.every(ele => ele < 6));
+
+# includes() method
+This method checks that the passes condition includes the elements or not, returning true or false.
+
+let arr18 = [ 1, 2, 3, 4, 5 ];
+
+console.log(arr18.includes(4));
+
+# some() method
+This method checks if atleast one element in the array that passes the condition returning true or false.
+
+let arr19 = [ 1, 2, 3, 4, 5 ];
+
+console.log(arr19.some(ele => ele >3));
+
+# reduce() method
+This method applies a function against accumulator and each element in the array to reduce it to a given value.
+
+let arr20 = [ 1, 2, 3, 4, 5 ];
+
+console.log(arr20.reduce((acc,value) => acc+value));
+
+
+# find() method
+This method returns the value of first element in the array that pass the test in the testing function
+
+let arr21 = [ 1, 2, 3, 4, 5 ];
+
+console.log(arr21.find(ele => ele < 4));
+
+# findIndex() method
+This method returns the index of first element in the array that pass the test in the testing function.
+
+let arr22 = [ 1, 2, 3, 4, 5 ];
+
+console.log(arr22.findIndex(ele => ele < 4));
+
+# reverse() method
+This method reverse an array in place. Elements in last index will be the first and vice-versa.
+
+let arr23 = [ 1, 2, 3, 4, 5 ];
+
+console.log(arr23.reverse());
+
+
 
