@@ -135,4 +135,3 @@ console.log(arr15.sort((a,b) => a>b ? 1:-1)); //ascending.
 console.log(arr15.sort((a,b) => a>b ? -1:1)); //descending.
 
 
-
