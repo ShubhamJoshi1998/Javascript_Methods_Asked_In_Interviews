@@ -4,6 +4,7 @@
  toString() method converts an array to a string of array Values
 
 let arr = ["a","b","c","d","e"];
+
 console.log("toString() : ", arr.toString());
 
 # join method()
