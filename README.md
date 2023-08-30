@@ -12,13 +12,12 @@ let arr1 = ["a","b","c","d","e"];
 console.log("join() : ", arr.join("/"))
 
 # pop() method
- pop() method removes the last element from an array.
-//This method returns the value that was popped out.
+ pop() method removes the last element from an array.This method returns the value that was popped out.
 let arr2 = ["a","b","c","d","e"];
 console.log(arr2.pop());
 console.log(arr2);
 
-// push() method()
+# push() method()
 //push() method add a new element in the array.
 //This method returns the length of array
 
