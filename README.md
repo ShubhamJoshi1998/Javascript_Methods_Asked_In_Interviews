@@ -2,10 +2,13 @@
 
 # tostring() Method:
  toString() method converts an array to a string of array Values
-
+ 
+```javascript
+//toString():
 let arr = ["a","b","c","d","e"];
 
 console.log("toString() : ", arr.toString());
+```
 
 # join method()
  join() method is same as toString() method, but we can specify a seprator also.It can be anything like ", / + -"
